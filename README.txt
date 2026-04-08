@@ -82,18 +82,6 @@ KNOWN LIMITATIONS
 - Known machine-specific app integrations include Opera GX, YouTube Music Desktop App, Codex, and Overwolf.
 - The app can still run without those integrations, but commands for missing apps will fail until their paths are adjusted.
 
-WORKSPACE DATA
-
-The workspace folder stores local data such as:
-- chat history
-- settings
-- memory snapshots
-- screenshots
-- protocol definitions
-- WhatsApp contact mappings
-
-Personal workspace files should not be committed to GitHub. The root .gitignore excludes the local-only files while still allowing shared protocol docs and sample protocol definitions.
-
 ARCHITECTURE
 
 - jarvis_flutter/: Flutter desktop client
@@ -102,6 +90,3 @@ ARCHITECTURE
 - tools/: local desktop actions
 - workspace/: local app state
 
-GITHUB UPLOAD
-
-If uploading this folder to GitHub, use the steps in PUBLISHING_CHECKLIST.md and the Git steps provided separately.
