@@ -1,0 +1,86 @@
+{
+  "protocols": [
+    {
+      "id": "protocol_gaming",
+      "name": "Protocol Gaming",
+      "description": "Launches Overwolf Launcher, VALORANT, and YouTube Music Desktop App.",
+      "aliases": [
+        "protocol gaming",
+        "activate protocol gaming",
+        "run protocol gaming",
+        "start protocol gaming",
+        "gaming protocol"
+      ],
+      "steps": [
+        {
+          "type": "launchApp",
+          "appId": "overwolf_launcher"
+        },
+        {
+          "type": "launchApp",
+          "appId": "valorant"
+        },
+        {
+          "type": "launchApp",
+          "appId": "youtube_music"
+        }
+      ]
+    },
+    {
+      "id": "protocol_study",
+      "name": "Protocol Study",
+      "description": "Closes VALORANT and Overwolf, then opens Opera GX and YouTube Music Desktop App.",
+      "aliases": [
+        "protocol study",
+        "activate protocol study",
+        "run protocol study",
+        "start protocol study",
+        "study protocol"
+      ],
+      "steps": [
+        {
+          "type": "closeApp",
+          "appId": "valorant"
+        },
+        {
+          "type": "closeApp",
+          "appId": "overwolf_launcher"
+        },
+        {
+          "type": "launchApp",
+          "appId": "opera_gx"
+        },
+        {
+          "type": "launchApp",
+          "appId": "youtube_music"
+        }
+      ]
+    },
+    {
+      "id": "protocol_code",
+      "name": "Protocol Code",
+      "description": "Opens VS Code, Codex, and Opera GX.",
+      "aliases": [
+        "protocol code",
+        "activate protocol code",
+        "run protocol code",
+        "start protocol code",
+        "code protocol"
+      ],
+      "steps": [
+        {
+          "type": "launchApp",
+          "appId": "vs_code"
+        },
+        {
+          "type": "launchApp",
+          "appId": "codex"
+        },
+        {
+          "type": "launchApp",
+          "appId": "opera_gx"
+        }
+      ]
+    }
+  ]
+}
